@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    schema: classpath:/schema.sql
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/registration
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver

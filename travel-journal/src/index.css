@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+.App-container{
+position: absolute;
+width: 550px;
+height: 1000px;
+left:40%;
+top: 100px;
+background: #f7f4f4;
+
+}
+.nav{
+  position: absolute;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A; 
+}
+.nav--logo{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 213px;
+top: 17px;
+}
+.nav--text{
+position: absolute;
+width: 109px;
+height: 15px;
+left: 244px;
+top: 18.5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 1px;
+letter-spacing: -0.05em;
+color: #FFFFFF;
+text-align: center;
+}
+section{
+ padding-top: 100px;
+}
+.cards{
+display: flex;
+flex-direction: row;
+width: 130px;
+height: 210px;
+left: 40px;
+padding-bottom: 100px;
+padding-left: 40px;
+
+}
+.card--images{
+width: 130px;
+height: 200px;
+border-radius: 5px;
+border-top-left-radius:5px ;
+
+}
+.card--info{
+  position: absolute;
+  padding-left: 170px;
+  padding-top: 0px;
+  display: inline;
+  flex-direction: column;
+  
+}
+.location--image{
+width: 10px;
+height: 14px;
+left: calc(50% - 7px/2 - 87.5px);
+top: calc(50% - 10px/2 - 227px);
+
+background: #DADADA;
+}
+.country--visited{
+  font-family: 'poppins';
+  font-weight: 400;
+  padding-left: 5px;
+  padding-right: 5px;
+
+
+
+}
+.viewOn{
+  text-decoration: underline;
+  width: 106px;
+  height: 13px;
+  left: 247px;
+  top: 119px;
+  color: gray;
+  padding-left: 10px;
+  
+}
+.place--visited{
+ font-size: 20px;
+ font-weight: bold;
+}
+.date--visited{
+  font-weight: 600;
+
+}
+.place--description{
+  font-family: 'Inter';
+
+}
